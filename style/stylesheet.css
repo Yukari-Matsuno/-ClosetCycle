@@ -1,0 +1,174 @@
+#index {
+  background-image: url(../image/closet.jpg);
+  background-position: right top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.index__text {
+  margin: 150px 0 0 100px;
+  color: #FF6666;
+}
+
+.logo {
+  font-size: 100px;
+}
+
+.index__text p {
+  font-size: 30px;
+}
+
+button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #FF9999;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px 5px #FF9999;
+  border: dashed 1px white;
+  transition: .4s;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+#how-to {
+  background-color: white;
+  color: #FF6666;
+}
+
+.how-to__contents {
+  background-color: white;
+  margin: 5% 10%;
+  padding: 5%;
+  border: 15px solid #FF6666;
+}
+
+.how-to__contents h1 {
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+
+.how-to__probrem--image {
+  float: left;
+  width: 30%;
+  height: auto;
+  margin-top: 2em;
+}
+
+.how-to__probrem--text {
+  float: left;
+  width: 40%;
+  position: relative;
+  margin: 0em 0 2em 8%;
+  padding: 15px 15px 15px 30px;
+  background-color: #f0f8ff;
+  border-radius: 30px;
+  color: #778899;
+  font-size: 20px;
+}
+
+.how-to__probrem--text:before {
+  content: "";
+  position: absolute;
+  left: -38px;
+  width: 13px;
+  height: 12px;
+  bottom: 0;
+  background: #f0f8ff;
+  border-radius: 50%;
+}
+
+.how-to__probrem--text:after {
+  content: "";
+  position: absolute;
+  left: -24px;
+  width: 20px;
+  height: 18px;
+  bottom: 3px;
+  background: #f0f8ff;
+  border-radius: 50%;
+}
+
+.how-to__probrem--text li {
+  padding-bottom: 10px;
+}
+
+.num {
+  font-size: 30px;
+  background-color: #FF6666;
+  color: white;
+  padding: 14px 0;
+  text-align: center;
+}
+
+.num1 {
+  padding-right: 70%;
+}
+
+.num2 {
+  padding-left: 70%;
+}
+
+.how-to__main--describe--article {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.how-to__main--describe--article--1 {
+  padding-left: 10%
+}
+
+.how-to__main--describe--article--2 {
+  padding-right: 10%;
+}
+
+.how-to__main--describe--article img {
+  float: left;
+  width: 40%;
+  height: ;
+  border-radius: 50%
+}
+
+.how-to__main--describe--article p {
+  width: 58%;
+  float: left;
+  padding: 50px 0 0 2%;
+  font-size: 18px
+}
+
+.how-to__main--describe--article--2 img{
+    float: right;
+}
+.how-to__main--describe--article--2 p{
+    float: right;
+    padding: 50px 2% 0 0;
+    text-align: right;
+}
+
+.how-to__contents--message {
+  margin-top: 100px;
+}
+
+.how-to__contents--message--text {
+  width: 60%;
+  font-size: 30px;
+  float: left;
+}
+
+.how-to__contents--message--button {
+  float: right;
+  margin:50px 0 0 auto;
+}
