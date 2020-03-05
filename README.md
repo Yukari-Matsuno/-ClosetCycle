@@ -10,8 +10,7 @@
 ・HTML5、CSS3
 ・PHP/Laravel
 
-![index](https://gyazo.com/aac4d80551e7b3e0ad2f09eb055304f1)
-![投稿画面](https://gyazo.com/b365472272d41b5b4afbd4db600c47ed)
+
 
 
 
